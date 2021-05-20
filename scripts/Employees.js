@@ -32,7 +32,7 @@ document.addEventListener(
                 return true; //return true which will then push that order into an array for that specific employee
               }
             }
-          );
+          ); //employeeOrders is has an output value of an ARRAY that only has (.filter(true) conditional return value) orders that match the employee.id
           let count = employeeOrders.length; //can place count below for total orders or can place employeeOrders.length
           window.alert(` ${employee.name} sold ${count} products `);
         }
